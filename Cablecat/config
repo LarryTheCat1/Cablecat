@@ -1,0 +1,43 @@
+#Iner_ID : Main or Sub or if -1 user menu func list
+%FUNCTIONS_LIST = (
+    "01:0:CableCat:cablecat_main:"                                                 => 5,
+#    "02:1:Monitoring:cablecat_show_live:"                          => 5,
+
+#****************************************************************************
+    "03:1:<span class='text-muted'>$_LIBRARY</span>:cablecat_storage:"     => 5,
+
+    "05:3:$_CABLE_TYPES:cablecat_cable_types_list:"                                 => 5,
+    "06:5:$_ADD:cablecat_cable_types_add:"                                         => 5,
+    "07:5:$_CHANGE:cablecat_cable_types_change:CABLE_TYPE_ID"                      => 5,
+
+    "08:3:$_COLOR_SCHEMES:cablecat_color_schemes_list:"                             => 5,
+    "09:8:$_ADD:cablecat_color_schemes_add:"                                       => 5,
+    "10:8:$_CHANGE:cablecat_color_schemes_change:COLOR_SCHEME_ID"                  => 5,
+
+    "11:3:$_CONNECTERS:cablecat_connecters_list:"                                         => 5,
+
+    "14:3:$_BOXES:cablecat_boxes_list:"                                         => 5,
+
+    "17:3:$_SPLITTERS:cablecat_splitters_list:"                                         => 5,
+
+    "20:3:$_CROSSES:cablecat_crosses_list:"                                         => 5,
+
+#    "23:3:E5:cablecat_color_schemes_list:"                                         => 5,
+
+#    "26:3:E6:cablecat_color_schemes_list:"                                         => 5,
+
+#****************************************************************************
+    "04:1:<span class='text-muted'>$_STORAGE</span>:cablecat_storage:"     => 5,
+
+    "11:4:$_CABLE_BIGHTS:cablecat_cable_bights_list:"                              => 5,
+    "12:11:$_ADD:cablecat_cable_bights_add:"                                       => 5,
+
+
+
+#****************************************************************************
+    "14:1:<span class='text-muted'>$_LINKS</span>:cablecat_link_main:"   => 5,
+
+
+);
+
+1
